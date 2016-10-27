@@ -111,6 +111,7 @@ li img {
 
 .itemApp {
     display: block;
+    position: relative;
     width: auto;
     margin: 1em;
     box-shadow: 0 1px 3px rgba(0, 0, 0, 0.12), 0 1px 2px rgba(0, 0, 0, 0.24);
@@ -193,5 +194,37 @@ li img {
 	left:0;
 	right:0;
 	bottom:0;
-	background-color:rgba(0,0,0,0.6)
+	background-color:rgba(0,0,0,0.6);
+}
+
+.myaccount
+{
+    margin-top: 20px;
+}
+.btn-important
+{
+    text-decoration: none;
+    padding: 5px;
+    color: white;
+    border: 2px solid white;
+}
+.btn-important:hover
+{
+    color: rgb(49, 53, 61);
+    padding: 5px;
+    background-color: white;
+    border: 2px solid white;
+}
+
+.cache-image:hover {
+    background: rgba(0,0,0,0.2);
+}
+.cache-image {
+    transition: all .25s ease;
+    cursor: pointer;
+    height: 100%;
+    left: 0;
+    position: absolute;
+    top: 0;
+    width: 100%;
 }
